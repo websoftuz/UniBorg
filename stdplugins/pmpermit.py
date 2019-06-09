@@ -15,10 +15,10 @@ borg.storage.PM_WARNS = {}
 borg.storage.PREV_REPLY_MESSAGE = {}
 
 
-BAALAJI_TG_USER_BOT = "FrontendPro hali chatni tasdiqlanmadi."
-TG_COMPANION_USER_BOT = "Iltimos ShX da spam qilmasdan kuting."
+BAALAJI_TG_USER_BOT = "FrontendPro hali chatni tasdiqlamadi."
+TG_COMPANION_USER_BOT = "Iltimos shaxsiyda spam qilmasdan kuting."
 UNIBORG_USER_BOT_WARN_ZERO = "Hozir offlineman."
-UNIBORG_USER_BOT_NO_WARN = "Salom, tez orada javob beraman. Hozir bandman."
+UNIBORG_USER_BOT_NO_WARN = "Salom, tez orada javob beraman. Hozir bandman. Iltimos flood qilmang. Ban olasiz!"
 
 
 @borg.on(events.NewMessage(incoming=True, func=lambda e: e.is_private))
