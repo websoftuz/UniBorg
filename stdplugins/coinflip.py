@@ -15,17 +15,17 @@ async def _(event):
         input_str = input_str.lower()
     if r % 2 == 1:
         if input_str == "heads":
-            await event.edit("The coin landed on: **Heads**. \n You were correct.")
+            await event.edit("Tanganing: **Oldi tomoni**. \n Siz to'g'ri topdingiz.")
         elif input_str == "tails":
-            await event.edit("The coin landed on: **Heads**. \n You weren't correct, try again ...")
+            await event.edit("Tanganing: **Oldi tomoni**. \n Noto'g'ri topdingiz ...")
         else:
-            await event.edit("The coin landed on: **Heads**.")
+            await event.edit("Tanganing: **Oldi tomoni**.")
     elif r % 2 == 0:
         if input_str == "tails":
-            await event.edit("The coin landed on: **Tails**. \n You were correct.")
+            await event.edit("Tanganing: **Orqa tomoni**. \n Siz to'g'ri topdingiz.")
         elif input_str == "heads":
-            await event.edit("The coin landed on: **Tails**. \n You weren't correct, try again ...")
+            await event.edit("Tanganing: **Orqa tomoni**. \n Noto'g'ri topdingiz ...")
         else:
-            await event.edit("The coin landed on: **Tails**.")
+            await event.edit("Tanganing: **Orqa tomoni**.")
     else:
         await event.edit("¯\_(ツ)_/¯")
